@@ -19,6 +19,10 @@ body {
 }
 
 /* Header styles */
+header {
+  text-align: center;
+}
+
 nav {
   display: grid;
   grid-template-columns: auto auto;
