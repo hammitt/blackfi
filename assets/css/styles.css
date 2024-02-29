@@ -17,7 +17,7 @@ body {
 
 /* Header styles */
 header {
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   padding: 20px;
   text-align: center;
 }
@@ -33,7 +33,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  /* color: #333; */
   font-weight: bold;
 }
 
@@ -68,7 +68,7 @@ nav ul li a {
 /* Key Features section styles */
 .key-features {
   padding: 50px 20px;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   text-align: center;
 }
 
@@ -101,7 +101,7 @@ nav ul li a {
 }
 
 .key-features p {
-  color: #EDF0F5; /* Text color */
+  color: #EDF0F5; Text color
 }
 
 /* Why Choose Us section styles */
@@ -138,14 +138,14 @@ nav ul li a {
   font-family: 'Audiowide', sans-serif;
 }
 
-.why-choose-us p {
-  color: #EDF0F5; /* Text color */
-}
+/* .why-choose-us p {
+  color: #EDF0F5; /* Text color 
+} */
 
 /* Footer styles */
 footer {
-  background-color: #333;
-  color: #fff;
+  /* background-color: #333;
+  color: #fff; */
   padding: 20px;
   text-align: center;
 }
@@ -162,7 +162,7 @@ footer ul li {
 
 footer ul li a {
   text-decoration: none;
-  color: #fff;
+  /* color: #fff; */
 }
 
 /* Social media icons styles */
