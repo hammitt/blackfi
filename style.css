@@ -11,12 +11,21 @@ body {
   margin-right: 20px;
 }
 
-h1 {
+:is(h1, h2, h3, h4, h5, h6)
+{
   font-family: "Audiowide", sans-serif;
-  font-size: 1.5rem;
   color: #95C7A0;
-  margin-top: 30px;
   margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 8rem;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 4rem;
+  margin-top: 20px;
 }
 
 p {
