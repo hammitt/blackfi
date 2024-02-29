@@ -7,16 +7,22 @@ nav-bar-logo {
 
 body {
   background-color: #030913
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h1 {
   font-family: "Audiowide", sans-serif;
   font-size: 1.5rem;
   color: #EDF0F5;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 p {
   font-family: "Ojuju", "sans-serif";
   font-size: 1.0rem;
   color: #EDF0F5;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
