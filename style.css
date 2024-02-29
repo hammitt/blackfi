@@ -11,20 +11,19 @@ body {
   margin-right: 20px;
 }
 
-:is(h1, h2, h3, h4, h5, h6)
-{
+h1 {
+  font-size: 8rem;
   font-family: "Audiowide", sans-serif;
   color: #95C7A0;
   margin-bottom: 10px;
-}
-
-h1 {
-  font-size: 8rem;
   margin-top: 30px;
 }
 
 h2 {
   font-size: 4rem;
+  font-family: "Audiowide", sans-serif;
+  color: #95C7A0;
+  margin-bottom: 10px;
   margin-top: 20px;
 }
 
