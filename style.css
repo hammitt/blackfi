@@ -5,7 +5,18 @@ nav-bar-logo {
   width: 200px;
 }
 
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
 body {
+  display: table-cell;
+  vertical-align: middle;
   background-color: #030913;
   margin-left: 20px;
   margin-right: 20px;
