@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Audiowide);
-@import url(https://fonts.googleapis.com/css?family=Glory);
+@import url(https://fonts.google.com/noto/specimen/Noto+Sans?stroke=Sans+Serif) /* Add the Noto Sans font family */;
 
 /* Resetting default margin and padding */
 * {
@@ -12,7 +12,7 @@
 body {
   background-color: #030913;
   color: #EDF0F5;
-  font-family: 'Glory', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
   max-width: 1920px;
   margin: 0 auto;
