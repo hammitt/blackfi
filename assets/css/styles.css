@@ -13,15 +13,15 @@ body {
   background-color: #030913;
   color: #EDF0F5;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1rem; /* Changed from 16px to 1rem */
   max-width: 1920px;
   margin: 0 auto;
 }
 
 /* Header styles */
-header {
+/* header {
   text-align: center;
-}
+} */
 
 nav {
   display: grid;
@@ -43,18 +43,19 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: right;
 }
 
 .nav-menu li {
   display: inline;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .nav-menu li a {
   text-decoration: none;
   color: #EDF0F5;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem; /* Changed from 20px to 1.25rem */
 }
 
 .nav-menu li a:hover {
@@ -62,7 +63,7 @@ nav {
 }
 
 .banner h1 {
-  font-size: 36px;
+  font-size: 2.25rem; /* Changed from 36px to 2.25rem */
   margin-bottom: 20px;
   color: #95C7A0; /* Heading color */
   font-family: 'Audiowide', sans-serif;
@@ -84,7 +85,7 @@ nav {
 }
 
 .banner p {
-  font-size: 18px;
+  font-size: 1.125rem; /* Changed from 18px to 1.125rem */
   margin-top: 20px;
 }
 
@@ -95,7 +96,7 @@ nav {
 }
 
 .key-features h2 {
-  font-size: 24px;
+  font-size: 1.5rem; /* Changed from 24px to 1.5rem */
   margin-bottom: 30px;
   color: #95C7A0; /* Heading color */
   font-family: 'Audiowide', sans-serif;
@@ -116,7 +117,7 @@ nav {
 }
 
 .key-features h3 {
-  font-size: 20px;
+  font-size: 1.25rem; /* Changed from 20px to 1.25rem */
   margin-bottom: 10px;
   color: #95C7A0; /* Heading color */
   font-family: 'Audiowide', sans-serif;
@@ -129,7 +130,7 @@ nav {
 }
 
 .why-choose-us h2 {
-  font-size: 24px;
+  font-size: 1.5rem; /* Changed from 24px to 1.5rem */
   margin-bottom: 30px;
   color: #95C7A0; /* Heading color */
   font-family: 'Audiowide', sans-serif;
@@ -150,7 +151,7 @@ nav {
 }
 
 .why-choose-us h3 {
-  font-size: 20px;
+  font-size: 1.25rem; /* Changed from 20px to 1.25rem */
   margin-bottom: 10px;
   color: #95C7A0; /* Heading color */
   font-family: 'Audiowide', sans-serif;
@@ -194,11 +195,11 @@ footer ul li a:hover {
   }
 
   .banner h1 {
-      font-size: 24px;
+      font-size: 1.5rem; /* Changed from 24px to 1.5rem */
   }
 
   .banner p {
-      font-size: 16px;
+      font-size: 1rem; /* Changed from 16px to 1rem */
   }
 
   .key-features li,
