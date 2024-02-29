@@ -24,35 +24,35 @@ header {
 }
 
 nav {
-  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav-logo-wrapper {
-  height: 100%;
+.nav-logo-wrapper {
+  text-align: left;
 }
 
-nav-menu-wrapper {
-  height: 100%;
+.nav-menu-wrapper {
+  text-align: right;
 }
 
-nav ul {
+.nav-menu {
   list-style-type: none;
 }
 
-nav ul li {
+.nav-menu li {
   display: inline;
   margin-right: 20px;
 }
 
-nav ul li a {
+.nav-menu li a {
   text-decoration: none;
   color: #EDF0F5;
   font-weight: bold;
-  font-family: 'Audiowide', sans-serif;
-  font-size: 30px;
 }
 
-nav ul li a:hover {
+.nav-menu li a:hover {
   color: #95C7A0; /* Hover color */
 }
 
