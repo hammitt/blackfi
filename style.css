@@ -13,11 +13,11 @@ body {
 
 div.body-wrapper {
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 20px;  
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 6rem;
   font-family: "Audiowide", sans-serif;
   color: #95C7A0;
   margin-bottom: 10px;
@@ -32,10 +32,23 @@ h2 {
   margin-top: 20px;
 }
 
+h3 {
+  font-size: 2rem;
+  font-family: "Audiowide", sans-serif;
+  color: #95C7A0;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
 p {
   font-family: "Ojuju", "sans-serif";
   font-size: 1.0rem;
   color: #EDF0F5;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+a {
+  color: #95C7A0;
+  text-decoration: none;
 }
