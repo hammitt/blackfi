@@ -19,7 +19,7 @@ body {
 }
 
 /* Header styles */
-header {
+nav {
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
@@ -54,6 +54,10 @@ header {
   color: #EDF0F5;
   font-weight: bold;
   font-size: 20px;
+}
+
+.nav-menu li a:hover {
+  color: #95C7A0; /* Hover color */
 }
 
 .banner h1 {
