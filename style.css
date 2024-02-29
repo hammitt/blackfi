@@ -6,12 +6,14 @@ nav-bar-logo {
 }
 
 body {
-  display: table-cell;
-  vertical-align: middle;
   background-color: #030913;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+div {
   margin-left: 20px;
   margin-right: 20px;
-  max-width: 1920px;
 }
 
 h1 {
