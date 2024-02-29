@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Audiowide);
-@import url(https://fonts.googleapis.com/css?family=Ojuju);
+@import url(https://fonts.googleapis.com/css?family=Glory);
 
 /* Resetting default margin and padding */
 * {
@@ -12,7 +12,7 @@
 body {
   background-color: #030913;
   color: #EDF0F5;
-  font-family: 'Ojuju', sans-serif;
+  font-family: 'Glory', sans-serif;
 }
 
 /* Header styles */
