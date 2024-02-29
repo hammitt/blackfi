@@ -19,14 +19,10 @@ body {
 
 /* Header styles */
 header {
-  padding: 20px;
-  text-align: center;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto;
   align-items: center;
+  padding: 20px;
 }
 
 .nav-logo-wrapper {
@@ -39,6 +35,8 @@ nav {
 
 .nav-menu {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-menu li {
@@ -50,10 +48,6 @@ nav {
   text-decoration: none;
   color: #EDF0F5;
   font-weight: bold;
-}
-
-.nav-menu li a:hover {
-  color: #95C7A0; /* Hover color */
 }
 
 .banner h1 {
