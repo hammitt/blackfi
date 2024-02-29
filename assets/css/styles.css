@@ -24,9 +24,6 @@ nav {
   grid-template-columns: auto auto;
   align-items: center;
   padding: 20px;
-}
-
-.nav {
   margin-bottom: 40px;
 }
 
