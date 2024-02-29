@@ -19,9 +19,9 @@ body {
 }
 
 /* Header styles */
-/* header {
+header {
   text-align: center;
-} */
+}
 
 nav {
   display: grid;
