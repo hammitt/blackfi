@@ -9,6 +9,7 @@ body {
   background-color: #030913;
   margin-left: 20px;
   margin-right: 20px;
+  max-width: 1920px;
 }
 
 h1 {
