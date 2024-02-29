@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Audiowide);
 @import url(https://fonts.googleapis.com/css?family=Ojuju);
 
+nav-bar-logo {
+  width: 200px;
+}
+
 body {
   background-color: #030913
 }
