@@ -1,24 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Audiowide);
-@import url(https://fonts.google.com/noto/specimen/Noto+Sans?stroke=Sans+Serif) /* Add the Noto Sans font family */;
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
-/* Resetting default margin and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styles */
 body {
-  background-color: #030913;
-  color: #EDF0F5;
+  background-color: #f8f9fa; /* Slightly off-white background */
+  color: #030913; /* Dark text color */
   font-family: 'Noto Sans', sans-serif;
-  font-size: 1rem; /* Changed from 16px to 1rem */
+  font-size: 1rem;
   max-width: 1920px;
   margin: 0 auto;
 }
 
-/* Header styles */
 header {
   text-align: center;
 }
@@ -43,7 +40,6 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: right;
 }
 
 .nav-menu li {
@@ -53,27 +49,42 @@ nav {
 
 .nav-menu li a {
   text-decoration: none;
-  color: #EDF0F5;
+  color: #030913; /* Dark text color */
   font-weight: bold;
-  font-size: 1.25rem; /* Changed from 20px to 1.25rem */
+  font-size: 1.25rem;
 }
 
 .nav-menu li a:hover {
-  color: #95C7A0; /* Hover color */
+  color: #007bff; /* Blue color on hover */
 }
 
-.banner h1 {
-  font-size: 2.25rem; /* Changed from 36px to 2.25rem */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  font-size: 2.25rem;
   margin-bottom: 20px;
-  color: #95C7A0; /* Heading color */
+  color: #007bff; /* Blue color for header */
   font-family: 'Audiowide', sans-serif;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
 }
 
 .cta-btn {
   display: inline-block;
   padding: 10px 20px;
   background-color: #007bff;
-  color: #EDF0F5;
+  color: #ffffff;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s;
@@ -84,126 +95,52 @@ nav {
   background-color: #0056b3;
 }
 
-.banner p {
-  font-size: 1.125rem; /* Changed from 18px to 1.125rem */
-  margin-top: 20px;
-}
-
-/* Key Features section styles */
-.key-features {
+.services {
   padding: 50px 20px;
-  text-align: center;
 }
 
-.key-features h2 {
-  font-size: 1.5rem; /* Changed from 24px to 1.5rem */
-  margin-bottom: 30px;
-  color: #95C7A0; /* Heading color */
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
   font-family: 'Audiowide', sans-serif;
 }
 
-.key-features ul {
+.services ul {
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  padding: 0;
 }
 
-.key-features li {
-  flex: 1;
-  margin: 0 10px;
-  max-width: 300px;
+.services li {
   margin-bottom: 20px;
 }
 
-.key-features h3 {
-  font-size: 1.25rem; /* Changed from 20px to 1.25rem */
+.services h3 {
+  font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #95C7A0; /* Heading color */
   font-family: 'Audiowide', sans-serif;
 }
 
-/* Why Choose Us section styles */
-.why-choose-us {
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.why-choose-us h2 {
-  font-size: 1.5rem; /* Changed from 24px to 1.5rem */
-  margin-bottom: 30px;
-  color: #95C7A0; /* Heading color */
-  font-family: 'Audiowide', sans-serif;
-}
-
-.why-choose-us ul {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.why-choose-us li {
-  flex: 1;
-  margin: 0 10px;
-  max-width: 300px;
-  margin-bottom: 20px;
-}
-
-.why-choose-us h3 {
-  font-size: 1.25rem; /* Changed from 20px to 1.25rem */
-  margin-bottom: 10px;
-  color: #95C7A0; /* Heading color */
-  font-family: 'Audiowide', sans-serif;
-}
-
-/* Footer styles */
 footer {
-  padding: 20px;
   text-align: center;
+  padding: 20px;
+  background-color: #e9ecef; /* Light grey background for footer */
 }
 
 footer ul {
   list-style-type: none;
-  margin-bottom: 20px;
+  padding: 0;
 }
 
-footer ul li {
+footer li {
   display: inline;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
-footer ul li a {
+footer li a {
   text-decoration: none;
-  color: #EDF0F5;
+  color: #030913; /* Dark text color */
 }
 
-footer ul li a:hover {
-  color: #95C7A0; /* Hover color */
-}
-
-/* Social media icons styles */
-.social-icons {
-  margin-bottom: 20px;
-}
-
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-  nav ul li {
-      display: block;
-      margin-bottom: 10px;
-  }
-
-  .banner h1 {
-      font-size: 1.5rem; /* Changed from 24px to 1.5rem */
-  }
-
-  .banner p {
-      font-size: 1rem; /* Changed from 16px to 1rem */
-  }
-
-  .key-features li,
-  .why-choose-us li {
-      max-width: none;
-  }
+footer li a:hover {
+  color: #007bff; /* Blue color on hover */
 }
