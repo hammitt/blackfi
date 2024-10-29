@@ -63,7 +63,7 @@ nav {
 .hero {
   text-align: center;
   padding: 50px 20px;
-  background-image: url('assets/images/subtle-prism.png'); /* Background hero image */
+  background-image: url('/assets/images/subtle-prism.png'); /* Background hero image */
   background-size: cover;
   background-position: center;
   color: #ffffff; /* White text color for contrast */
