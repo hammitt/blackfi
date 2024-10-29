@@ -12,7 +12,6 @@ body {
   color: #030913; /* Dark text color */
   font-family: 'Noto Sans', sans-serif;
   font-size: 1rem;
-  max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -34,6 +33,10 @@ nav {
   text-align: left;
 }
 
+.nav-logo img {
+  max-height: 30px;
+}
+  
 .nav-menu-wrapper {
   text-align: right;
 }
